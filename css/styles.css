@@ -1,0 +1,178 @@
+
+@font-face {
+    font-family: sub;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+
+.card-wrapper {
+    position: absolute;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #378bc3;
+    border: 1pt solid #ccc;
+    border-radius: 20pt;
+    overflow: hidden;
+}
+.card-front{
+    position: relative;
+    right: 102mm;
+}
+.card1-background {
+    /* Customize background styling as needed */
+    position: relative;
+
+}
+
+.topbar {
+    position: relative;
+    width: 60mm;
+    height: 15mm;
+    transform: skewX(-20deg);
+    background-color: #fff;
+    right: 26mm;
+}
+
+.bottombar {
+    position: relative;
+    width: 60mm;
+    height: 9mm;
+    transform: skewX(-20deg);
+    background-color: #fff;
+    top: 27mm;
+    left: 26mm;
+}
+
+.card1-content {
+    position: relative;
+    color: #fff;
+}
+
+.party-name {
+    font-family: sub;
+    color: #378bc3;
+    position: relative;
+    font-size: 13pt;
+    font-weight: bold;
+    bottom: 23mm;
+    right: 19mm;
+}
+
+.party-job-title {
+    font-family: sub;
+    color: #378bc3;
+    position: relative;
+    font-size: 13pt;
+    font-weight: bold;
+    bottom: 23mm;
+    right: 19mm;
+}
+
+.qr-img {
+    position: relative;
+    max-width: 21mm;
+    right: 29mm;
+    bottom: 22mm;
+}
+
+.company {
+    position: relative;
+    font-size: 14pt;
+    bottom: 20mm;
+}
+
+.party-phone {
+    position: relative;
+    font-size: 8pt;
+    color: #378bc3;
+    bottom: 22mm;
+    left: 21mm;
+}
+
+.party-email {
+    position: relative;
+    font-size: 9.3pt;
+    bottom: 41mm;
+    left: 14mm;
+}
+
+.party-phone-lable {
+    font-size: 8pt;
+}
+.party-email-lable {
+    font-size: 9.3pt;
+}
+/* card 2 design */
+.card-back{
+    position: relative;
+    right: 11mm;
+    bottom: 59mm;
+}
+.card2-background {
+    background-color:#378bc3;
+}
+.card2-background .topbar {
+    position: relative;
+    width: 60mm;
+    height: 15mm;
+    transform: skewX(-20deg);
+    background-color: #fff;
+    right: 26mm;
+}
+
+.card2-background .bottombar {
+    position: relative;
+    width: 60mm;
+    height: 9mm;
+    transform: skewX(-20deg);
+    background-color: #fff;
+    top: 27mm;
+    left: 29mm;
+}
+
+.card2-content {
+    position: absolute;
+    color: #ffffff;
+}
+
+.org-logo-img {
+    position: relative;
+    bottom: 54pt;
+    right: 53pt;
+}
+
+.org-name {
+    position: relative;
+    font-style: oblique;
+    font-size: 12.5pt;
+    bottom: 39pt;
+    left: 3pt;
+}
+
+.org-address {
+    position: relative;
+    font-size: 7pt;
+    bottom: 13mm;
+    left: 1mm;
+}
+.org-email {
+    position: relative;
+    font-size: 9pt;
+    bottom: 16mm;
+    right: 20mm;
+}
+
+.org-phone {
+    position: relative;
+    font-size: 9pt;
+    bottom: 16mm;
+    right: 20mm;
+}
+
+.org-website {
+    position: relative;
+    font-size: 9pt;
+    color: #378bc3;
+    bottom: 13.3mm;
+    left: 20mm;
+
+}
